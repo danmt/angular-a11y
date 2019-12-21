@@ -1,8 +1,10 @@
+@import '~src/assets/styles/variables.scss';
+
 .footer {
   background: lightblue;
   padding: 1rem;
   box-sizing: border-box;
-  height: 5rem;
+  height: $footer-height;
 
   &__title {
     margin: 0;

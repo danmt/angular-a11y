@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  margin: 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+
+  &:hover {
+    background-color: white;
+  }
+
+  &:active {
+    background-color: black;
+    color: white;
+  }
+}

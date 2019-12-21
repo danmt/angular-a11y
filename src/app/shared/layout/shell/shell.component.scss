@@ -1,0 +1,21 @@
+.section {
+  height: 100%;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+  }
+
+  &__title {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  &__body {
+    display: block;
+    padding: 1rem;
+  }
+}

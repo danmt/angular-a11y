@@ -1,3 +1,5 @@
+@import '~src/assets/styles/variables.scss';
+
 .main {
-  min-height: calc(100% - 8rem);
+  min-height: calc(100% - #{$main-offset});
 }
