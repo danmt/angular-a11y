@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  title = 'Home';
   articles = [
     { title: 'Article A', type: 'type-a' },
     { title: 'Article B', type: 'type-b' },
