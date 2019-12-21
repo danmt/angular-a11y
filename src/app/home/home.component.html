@@ -1,15 +1,6 @@
 <app-shell title="Home">
   <div class="home">
-    <app-article title="Article A" class="type-a">
-      <app-button>Press Me</app-button>
-    </app-article>
-    <app-article title="Article B" class="type-b">
-      <app-button>Press Me</app-button>
-    </app-article>
-    <app-article title="Article C" class="type-c">
-      <app-button>Press Me</app-button>
-    </app-article>
-    <app-article title="Article D" class="type-d">
+    <app-article *ngFor="let article of articles" [title]="article.title" [class]="article.type">
       <app-button>Press Me</app-button>
     </app-article>
   </div>
