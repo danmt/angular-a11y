@@ -1,0 +1,11 @@
+.footer {
+  background: lightblue;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 5rem;
+
+  &__title {
+    margin: 0;
+    text-align: center;
+  }
+}
