@@ -51,10 +51,14 @@
   }
 
   &__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem;
     text-align: center;
   }
 
   &__button {
+    display: inline-block;
     margin: 1rem;
     background-color: transparent;
     border: 1px solid black;
