@@ -3,15 +3,13 @@
 }
 
 .body {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 0.5rem;
-  column-gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
 }
 
 .type-a {
-  grid-row: span 2;
   background: lightcoral;
 }
 
@@ -24,6 +22,5 @@
 }
 
 .type-d {
-  grid-column: span 2;
   background: lightskyblue;
 }
