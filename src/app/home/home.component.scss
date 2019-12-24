@@ -10,6 +10,12 @@
   column-gap: 0.5rem;
 }
 
+.hide {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
 .type-a {
   grid-row: span 2;
   background: lightcoral;

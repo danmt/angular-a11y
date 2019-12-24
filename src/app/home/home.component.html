@@ -1,6 +1,11 @@
 <app-shell [title]="title">
   <div class="body">
-    <app-article *ngFor="let article of articles" [title]="article.title" [class]="article.type">
+    <app-article
+      *ngFor="let article of articles"
+      [title]="article.title"
+      [class]="article.type"
+      [ngClass]="{ hide: true }"
+    >
       <app-button>Press Me</app-button>
     </app-article>
   </div>
