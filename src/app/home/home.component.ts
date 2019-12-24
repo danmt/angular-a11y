@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   title = 'Home';
   articles = [
-    { title: 'Article A', type: 'type-a' },
-    { title: 'Article B', type: 'type-b' },
+    { title: 'Article D', type: 'type-d' },
     { title: 'Article C', type: 'type-c' },
-    { title: 'Article D', type: 'type-d' }
+    { title: 'Article B', type: 'type-b' },
+    { title: 'Article A', type: 'type-a' }
   ];
 }
